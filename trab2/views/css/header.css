@@ -1,0 +1,118 @@
+body{               
+  background: #4f585e;
+}
+
+.btn_nav{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  -webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn_nav:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  color:#1b1b1b;
+}
+
+.inpLog{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #999;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.inpLog::-webkit-input-placeholder{
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.form-popup {
+  display: none;
+  position: absolute;
+  top: 45px;
+  right: 8px;
+  z-index: 5;
+  float: right;
+}
+
+.form-container {
+  max-width: 249px;
+  padding: 10px;
+  background-color: rgba(39 44 47);
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.erro{
+  font-family: 'Verdana';
+  color: red;
+  position: absolute;
+  right: 8px;
+  top: 50px;
+}
+
+.notepad {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: 25%;
+  box-shadow: 10px 10px 40px rgba(black, .15);
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  position: relative;
+  top: 15vh;
+}
+
+.top {
+  padding: 0px 20px 0px 20px;
+  height: 50px;
+  background: #333;
+  border-radius: 5px 5px 0 0;
+}
+
+.paper {
+  height: auto;
+  padding: 35px 20px;
+  background: repeating-linear-gradient(#F1EDE9, #F1EDE9 31px, #94ACD4 31px, #94ACD4 32px);
+  font-family: 'Shadows Into Light', cursive;
+  line-height: 32px;
+  outline: 0;
+  font-size: 22px;
+}
